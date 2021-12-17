@@ -42,7 +42,7 @@ const view = {
         <div>
           <h3>正義果然會勝利的！快去看看卡片吧！</h3>
           <button id="play-again">再玩一次</button>
-          <button id="card-link">看卡片去！<a href="http://"></a></button>
+          <button id="card-link"><a href="https://bn1305files.storage.live.com/y4mOIC3cEgjXCFLJahdegn7tN7EN107hpyGOuJ6m0mVSpi0LgDTS_Kc35FZT3wmAAFdRzetDnIPK_cfht6yP14X_WVNkSGwDqKLe-0tBZKd72T6KEWvQOv44SEPM9sVW1fTRzfXDBO9lzw_VWXgc-8lL06oAFnibJ1_9bKhQYM6gVIB_79ef0X0HjGD0cSZ-R5a?width=1800&height=1200&cropmode=none">看卡片去！</a></button>
         </div>
       </div>
         `
@@ -256,16 +256,16 @@ const controller = {
 
     if (controller.lineFormed(model.birdPosition)) {
       view.renderEnding('小鳥贏')
-      return alert('鳥贏')
+      return alert('小鳥獲勝！')
     } else if (controller.lineFormed(model.fishPosition)) {
       view.renderEnding('壞魚贏')
-      return alert('魚贏')
+      return alert('壞魚獲勝')
     }
    
 
     if (model.stepCount === 9) {
       view.renderEnding('平手')
-      return alert('平手')
+      return alert('哎呀...平手了...')
     }
   },
 
