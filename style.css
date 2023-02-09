@@ -66,18 +66,19 @@ html, body {
 }
 
 img {
-  width: 103%;
+  width: 100%;
   align-self: center;
 }
 
 #game-end {
   position: absolute;
-  top: 300px;
+  top: 30vh;
   left: 0px;
   right: 0px;
   margin: 50px auto;
-  width: 700px;
-  height: 550px;
+  width: 100vw;
+  max-width: 500px;
+  height: fit-content;
   background-color: rgb(236, 205, 200, 0.95);
   display: flex;
   flex-direction: column;
