@@ -42,7 +42,7 @@ const view = {
         <div>
           <h3>正義果然會勝利的！快去看看卡片吧！</h3>
           <button id="play-again">再玩一次</button>
-          <button id="card-link"><a href="https://bn1305files.storage.live.com/y4mOIC3cEgjXCFLJahdegn7tN7EN107hpyGOuJ6m0mVSpi0LgDTS_Kc35FZT3wmAAFdRzetDnIPK_cfht6yP14X_WVNkSGwDqKLe-0tBZKd72T6KEWvQOv44SEPM9sVW1fTRzfXDBO9lzw_VWXgc-8lL06oAFnibJ1_9bKhQYM6gVIB_79ef0X0HjGD0cSZ-R5a?width=1800&height=1200&cropmode=none">看卡片去！</a></button>
+          <button id="card-link"><a href="https://1drv.ms/u/s!ArT8WGnw20SBgc5H4x-33UWg-2XWSg?e=nnF2PQ">看卡片去！</a></button>
         </div>
       </div>
         `
